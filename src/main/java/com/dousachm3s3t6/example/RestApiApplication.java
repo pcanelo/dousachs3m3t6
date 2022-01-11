@@ -20,7 +20,8 @@ public class RestApiApplication {
 		return args -> {
 			repository.save(new Student("Juan", "Perez", "Junior"));
 			repository.save(new Student("Marcos", "Perez", "Senior"));
-			repository.save(new Student("Macario", "Olivares", "Goma"));
+			repository.save(new Student("Sebastian", "Boric", "Goma"));
+			repository.save(new Student("Gabriel", "Piñera", "Goma"));
 		};
 	}
 }
